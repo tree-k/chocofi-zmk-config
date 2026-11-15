@@ -1,0 +1,697 @@
+layout: {zmk_keyboard: base}
+layers:
+  PC:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apps$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-control$$'}
+  - G
+  - H
+  - {t: J, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$'}
+  - Z
+  - X
+  - {t: C, h: NUM}
+  - V
+  - B
+  - N
+  - M
+  - {t: ',', s: ;}
+  - {t: ., s: ':'}
+  - /
+  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:backspace-outline$$', h: NUM}
+  - {t: '$$mdi:keyboard-space$$', h: NAV, s: $$dot_spc$$}
+  - {t: '$$mdi:keyboard-return$$', h: SYM_L}
+  - '&space_cmd_num'
+  - '&tmux_ctrl'
+  MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apps$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: J, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  UA:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - {t: Sft+/, s: /}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-space$$', h: NAV, s: '&dot_spc_ua'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  UA MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ','
+  - .
+  - {t: Sft+/, s: /}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:keyboard-space$$', h: NAV, s: '&dot_spc_ua'}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  NUM:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - F10
+  - F4
+  - F5
+  - F6
+  - {type: none}
+  - '{'
+  - '4'
+  - '5'
+  - '-'
+  - ''''
+  - {type: none}
+  - F1
+  - {t: F2, type: held}
+  - F3
+  - {type: none}
+  - {type: none}
+  - '1'
+  - '2'
+  - '3'
+  - {type: none}
+  - {type: none}
+  - {t: ',', type: held alternate}
+  - {t: ▽, type: trans}
+  - {t: '0', h: SYM_L}
+  - .
+  - {type: none}
+  NUM UA:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Sft+/, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - /
+  - {t: ▽, type: trans}
+  NAV:
+  - {type: none}
+  - {type: none}
+  - $$tabler:square-x$$
+  - $$tabler:browser-x$$
+  - {type: none}
+  - $$mdi:monitor-screenshot$$
+  - $$pg_dn$$
+  - $$mdi:arrow-up-bold$$
+  - $$pg_up$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:apple-keyboard-shift$$', h: '$$tabler:sticker$$'}
+  - {t: '$$mdi:apple-keyboard-option$$', h: '$$tabler:sticker$$'}
+  - {t: '$$mdi:apps$$', h: '$$tabler:sticker$$'}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$tabler:sticker$$'}
+  - {type: none}
+  - {t: '$$mdi:arrow-left-bold$$', h: ⌃ Home}
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:arrow-right-bold$$', h: ⌃ End}
+  - $$mdi:power-sleep$$
+  - {type: none}
+  - {t: '$$mdi:swap-horizontal$$', h: Alt-Tab}
+  - {type: none}
+  - {t: '$$mdi:swap-horizontal$$', h: Tabs}
+  - {type: none}
+  - {type: none}
+  - $$screen-prev$$
+  - {t: '$$mdi:apps$$', h: launcher}
+  - $$tabler:screen-share$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
+  NAV_MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$tabler:square-x$$
+  - $$tabler:browser-x$$
+  - {t: ▽, type: trans}
+  - $$mdi:monitor-screenshot$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:apple-keyboard-control$$', h: '$$tabler:sticker$$'}
+  - {t: '$$mdi:apps$$', h: '$$tabler:sticker$$'}
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-left-bold$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:arrow-right-bold$$
+  - $$mdi:power-sleep$$
+  - {t: ▽, type: trans}
+  - {t: '$$mdi:swap-horizontal$$', h: Cmd-Tab}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$screen-prev$$
+  - $$tabler:mouse$$
+  - $$tabler:screen-share$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM_L:
+  - '!'
+  - '@'
+  - '#'
+  - '&'
+  - '%'
+  - ^
+  - +
+  - '*'
+  - $/€/°
+  - '='
+  - $$escape$$
+  - '`'
+  - \
+  - '|'
+  - '~'
+  - _
+  - '-'
+  - /
+  - '='
+  - '!'
+  - {type: none}
+  - {t: '`', h: '$$tabler:sticker$$'}
+  - {t: ´, h: '$$tabler:sticker$$', type: held alternate}
+  - <
+  - {type: none}
+  - {type: none}
+  - '>'
+  - ;
+  - ':'
+  - {type: none}
+  - {type: none}
+  - {type: held alternate}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  SYM_R:
+  - '!'
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - ^
+  - +
+  - '*'
+  - $/€/°
+  - '='
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - _
+  - '-'
+  - /
+  - '='
+  - '!'
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - '>'
+  - ;
+  - ':'
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: none}
+  - {type: none}
+  SYM_MAC:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $/€/°
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ´, h: '$$tabler:sticker$$', type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SYM UA:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+4
+  - Sft+6
+  - Sft+7
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  CMD_NUM:
+  - Ctl+1
+  - Ctl+2
+  - Ctl+3
+  - Ctl+4
+  - Ctl+5
+  - Ctl+6
+  - Ctl+7
+  - Ctl+8
+  - Ctl+9
+  - Ctl+0
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  CMD_MAC:
+  - Gui+1
+  - Gui+2
+  - Gui+3
+  - Gui+4
+  - Gui+5
+  - Gui+6
+  - Gui+7
+  - Gui+8
+  - Gui+9
+  - Gui+0
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  ADJ:
+  - {type: none}
+  - {t: '$$mdi:power$$', h: 'off'}
+  - {t: '$$mdi:monitor$$', h: PC layer}
+  - {t: '$$mdi:apple$$', h: Mac layer}
+  - $$mdi:progress-download$$
+  - $$mdi:progress-download$$
+  - $$mdi:play-pause$$
+  - $$mdi:skip-next$$
+  - $$mdi:skip-previous$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:backup-restore$$
+  - $$mdi:backup-restore$$
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:volume-off$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: held}
+  - {type: held}
+  - {type: held}
+  - {type: none}
+  - {type: none}
+  LOCK:
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+  - {type: none}
+combos:
+- p: [11, 12]
+  k: $$escape$$
+  l: [PC, MAC, UA, UA MAC]
+- p: [12, 13]
+  k: $$mdi:keyboard-tab$$
+  l: [PC, MAC, UA, UA MAC]
+- p: [21, 22]
+  k: $$mdi:content-copy$$
+  l: [PC, UA]
+- p: [22, 23]
+  k: $$mdi:content-paste$$
+  l: [PC, UA]
+- p: [21, 22, 23]
+  k: $$mdi:content-cut$$
+  l: [PC, UA]
+  a: bottom
+- p: [10, 11]
+  k: $$mdi:undo$$
+  l: [PC, UA]
+- p: [13, 14]
+  k: $$mdi:redo$$
+  l: [PC, UA]
+- p: [21, 22]
+  k: $$mdi:content-copy$$
+  l: [MAC, UA MAC]
+- p: [22, 23]
+  k: $$mdi:content-paste$$
+  l: [MAC, UA MAC]
+- p: [21, 22, 23]
+  k: $$mdi:content-cut$$
+  l: [MAC, UA MAC]
+  a: bottom
+- p: [10, 11]
+  k: $$mdi:undo$$
+  l: [MAC, UA MAC]
+- p: [13, 14]
+  k: $$mdi:redo$$
+  l: [MAC, UA MAC]
+- p: [16, 17]
+  k: (
+  l: [PC, MAC, UA, UA MAC, SYM_R, NUM, NUM UA]
+- p: [17, 18]
+  k: )
+  l: [PC, MAC, UA, UA MAC, SYM_R, NUM, NUM UA]
+- p: [26, 27]
+  k: {h: '[', s: '{'}
+  l: [PC, MAC, UA, UA MAC, SYM_R, NUM, NUM UA]
+- p: [27, 28]
+  k: {h: ']', s: '}'}
+  l: [PC, MAC, UA, UA MAC, SYM_R, NUM, NUM UA]
+- p: [6, 7]
+  k: $$mdi:backspace-outline$$
+  l: [PC, MAC, UA, UA MAC, NAV, NAV_MAC, NUM, NUM UA]
+- p: [7, 8]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [PC, MAC, UA, UA MAC, NAV, NAV_MAC, NUM, NUM UA]
+- p: [6, 7, 8]
+  k: {h: WORD, s: '$$mdi:backspace-outline$$'}
+  l: [PC, UA]
+  a: top
+- p: [6, 7, 8]
+  k: {h: WORD, s: '$$mdi:backspace-outline$$'}
+  l: [MAC, UA MAC]
+  a: top
+- p: [6, 7, 8]
+  k: {h: LINE, s: '$$mdi:backspace-outline$$'}
+  l: [NAV]
+  a: top
+- p: [6, 7, 8]
+  k: {h: LINE, s: '$$mdi:backspace-outline$$'}
+  l: [NAV_MAC]
+  a: top
+- p: [34, 35]
+  k: '&lang_pc'
+  l: [PC, UA]
+- p: [34, 35]
+  k: '&lang_mac'
+  l: [MAC, UA MAC]
+- p: [33, 34, 35]
+  k: {t: UA, h: toggle}
+  l: [PC, UA]
+- p: [33, 34, 35]
+  k: {t: UA MAC, h: toggle}
+  l: [MAC, UA MAC]
+- p: [8, 9]
+  k: '['
+  l: [UA, UA MAC]
+- p: [18, 19]
+  k: ''''
+  l: [UA, UA MAC]
+- p: [5, 6]
+  k: AltGr+U
+  l: [UA, UA MAC]
+- p: [28, 29]
+  k: '`'
+  l: [UA, UA MAC]
+- p: [0, 9, 32, 33]
+  k: $$mdi:lock-open-outline$$
+  l: [PC, MAC, UA, UA MAC, LOCK]
+  a: bottom
+  o: 0.3
+  arc_scale: 1.05

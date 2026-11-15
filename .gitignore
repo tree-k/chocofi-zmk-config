@@ -1,0 +1,6 @@
+.vscode
+.DS_Store
+keymap_drawer/keymap.yaml
+build
+*.uf2
+__pycache__/

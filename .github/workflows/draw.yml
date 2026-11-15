@@ -1,0 +1,26 @@
+name: Draw ZMK keymaps
+on:
+  workflow_dispatch: # can be triggered manually
+  push: # automatically run on changes to following paths
+    paths:
+      - "config/base.keymap"
+      - "config/dummy.keymap"
+      - "config/*.dtsi"
+      - "keymap_drawer/draw_config.yaml"
+
+jobs:
+  draw_keys:
+    uses: caksoylar/keymap-drawer/.github/workflows/draw-zmk.yml@main
+    permissions:
+      contents: write
+    with:
+      install_branch: "main" # branch to install keymap-drawer from
+      keymap_patterns: "config/{chocofi,base,dummy}.keymap" # path to the keymaps to parse
+      config_path: "keymap_drawer/draw_config.yaml" # config file, ignored if not exists
+      output_folder: "keymap_drawer" # path to save produced SVGs
+      # commit_message: "Draw: ${{ github.event.head_commit.message }}"
+      amend_commit: true # whether to amend the commit or create a new one
+      parse_args: ""
+      draw_args: "dummy:'-k chocofi -s PC MAC NAV NAV_MAC SYM_L SYM_MAC NUM CMD_NUM ADJ -g 0 9 20 24 25 29 30 35'
+                  base:'-k chocofi -s PC MAC NAV NAV_MAC SYM_L SYM_MAC NUM CMD_NUM ADJ -g 0 9 20 24 25 29 30 35'
+                  chocofi:'-k chocofi -s PC MAC NAV NAV_MAC SYM_L SYM_MAC NUM CMD_NUM ADJ -g 20 24 25 29 30 35'"
