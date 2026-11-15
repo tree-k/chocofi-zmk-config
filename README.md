@@ -55,6 +55,8 @@ produce Italian accented letters using the `US-Intl with AltGr Dead Keys`
 
 ## How to use this config (for the new owner)
 
+**New to ZMK? Read [GUIDE.md](./GUIDE.md) first**: step-by-step setup, how to edit the keymap, pairing, troubleshooting.
+
 1. Create a free GitHub account, then a new empty repository (private is fine).
 2. Upload everything from this folder to it (keep the `.github` and `config` folders).
 3. Open the **Actions** tab → the *Build* workflow runs automatically. When it finishes, download the

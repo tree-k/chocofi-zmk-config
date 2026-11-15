@@ -17,3 +17,6 @@ include:
     shield: chocofi_left nice_view_adapter nice_view
   - board: nice_nano_v2
     shield: chocofi_right nice_view_adapter nice_view
+  # Utility firmware: flash on a half to wipe its saved Bluetooth pairings/settings (see GUIDE.md)
+  - board: nice_nano_v2
+    shield: settings_reset
