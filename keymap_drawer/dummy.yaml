@@ -31,11 +31,11 @@ layers:
   - {t: ',', s: ;}
   - {t: ., s: ':'}
   - /
-  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:backspace-outline$$', h: NUM}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-space$$', h: NAV, s: $$dot_spc$$}
   - {t: '$$mdi:keyboard-return$$', h: SYM_L}
-  - '&space_cmd_num'
+  - $$mdi:backspace-outline$$
   - '&tmux_ctrl'
   MAC:
   - {t: ▽, type: trans}
@@ -179,8 +179,8 @@ layers:
   - '2'
   - '3'
   - {type: none}
-  - {type: none}
-  - {t: ',', type: held alternate}
+  - {type: held alternate}
+  - ','
   - {t: ▽, type: trans}
   - {t: '0', h: SYM_L}
   - .
@@ -216,8 +216,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: Sft+/, type: held}
+  - {type: held}
+  - Sft+/
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
@@ -327,8 +327,8 @@ layers:
   - ;
   - ':'
   - {type: none}
-  - {type: none}
   - {type: held alternate}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: none}
@@ -401,8 +401,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -438,8 +438,8 @@ layers:
   - Sft+4
   - Sft+6
   - Sft+7
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -549,8 +549,8 @@ layers:
   - $$mdi:brightness-5$$
   - {type: none}
   - {type: none}
-  - {type: none}
   - {type: held}
+  - {type: none}
   - {type: held}
   - {type: held}
   - {type: none}

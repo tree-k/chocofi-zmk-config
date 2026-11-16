@@ -475,11 +475,11 @@
              //╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮     ╭──────────────┬──────────────┬──────────────┬──────────────┬──────────────╮
                 &kp Q            &kp W          &kp E          &kp R         &kp T                 &kp Y          &kp U          &kp I          &kp O          &kp P
              //├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
-                &hml LSHIFT A   &hml LALT S    &hml_gui LGUI D &hml LSHIFT F  &kp G                 &kp H          &hmr RSHIFT J   &hmr_gui RGUI K &hmr RALT L  &hmr RSHIFT SEMI
+                &hml LSHIFT A   &hml LALT S  &hml_gui LGUI D &hml LSHIFT F  &kp G                 &kp H          &hmr RSHIFT J   &hmr_gui RGUI K &hmr RALT L  &hmr RSHIFT SEMI
              //├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┼──────────────┤
                 &kp Z            &kp X          &lt NUM C      &kp V          &kp B                &kp N            &kp M        &comma_semi    &dot_colon     &kp SLASH
              //╰──────────────┴──────────────┼──────────────┼──────────────┼──────────────┤     ├──────────────┼──────────────┼──────────────┼──────────────┴──────────────╯
-                                              &kp LCTRL        &lt NUM BSPC   &lt_spc NAV 0        &lt SYM_L RET    &space_cmd_num &tmux_ctrl
+                                              &lt NUM BSPC    &kp SPACE      &lt_spc NAV 0        &lt SYM_L RET  &kp BACKSPACE &tmux_ctrl
              //                              ╰──────────────┴──────────────┴──────────────╯     ╰──────────────┴──────────────┴──────────────╯
             >;
         };
