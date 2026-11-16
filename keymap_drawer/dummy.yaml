@@ -11,8 +11,8 @@ layers:
   - I
   - O
   - P
-  - {t: A, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
   - {t: D, h: '$$mdi:apps$$'}
   - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
@@ -20,7 +20,7 @@ layers:
   - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, h: '$$mdi:apple-keyboard-command$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - RSHIFT SEMI
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$'}
   - Z
   - X
   - {t: C, h: NUM}
@@ -32,10 +32,10 @@ layers:
   - {t: ., s: ':'}
   - /
   - $$mdi:apple-keyboard-control$$
-  - '&space_cmd_num'
+  - {t: '$$mdi:backspace-outline$$', h: NUM}
   - {t: '$$mdi:keyboard-space$$', h: NAV, s: $$dot_spc$$}
   - {t: '$$mdi:keyboard-return$$', h: SYM_L}
-  - $$mdi:backspace-outline$$
+  - '&space_cmd_num'
   - '&tmux_ctrl'
   MAC:
   - {t: ▽, type: trans}
@@ -180,7 +180,7 @@ layers:
   - '3'
   - {type: none}
   - {type: none}
-  - ','
+  - {t: ',', type: held alternate}
   - {t: ▽, type: trans}
   - {t: '0', h: SYM_L}
   - .
@@ -217,7 +217,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+/
+  - {t: Sft+/, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - /
@@ -328,7 +328,7 @@ layers:
   - ':'
   - {type: none}
   - {type: none}
-  - {t: ▽, type: trans}
+  - {type: held alternate}
   - {t: ▽, type: trans}
   - {type: held}
   - {type: none}
@@ -402,7 +402,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -439,7 +439,7 @@ layers:
   - Sft+6
   - Sft+7
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -550,7 +550,7 @@ layers:
   - {type: none}
   - {type: none}
   - {type: none}
-  - {type: none}
+  - {type: held}
   - {type: held}
   - {type: held}
   - {type: none}
